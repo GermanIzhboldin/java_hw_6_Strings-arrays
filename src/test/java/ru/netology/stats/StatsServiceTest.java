@@ -94,7 +94,7 @@ class StatsServiceTest {
 
         long actual = service.SalesAboveAvg(sales);
 
-        long expected = 4;
+        long expected = 5;
 
         Assertions.assertEquals(expected, actual);
     }
